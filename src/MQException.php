@@ -1,11 +1,12 @@
 <?php
+namespace phpmakequery\mysql;
 /**
  * Controle de exceções dos métodos do projeto
  * 
  * @author Guilherme Mar <guilhermemar.dev@gmail.com>
  * @version 0.1
  */
-class MQException extends Exception
+class MQException extends \Exception
 {
 	/**
 	 * Códigos de erros mapeados
@@ -38,6 +39,7 @@ class MQException extends Exception
 		self::UNMAPPED_ERROR      => "Código de erro gerado não mapeado"
 			
 	);
+
 	/**
 	 * Construtora da classe
 	 * 

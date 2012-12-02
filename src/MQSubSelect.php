@@ -32,7 +32,7 @@ class MQSubSelect extends MQSelect
 	/**
 	 * Alias para a subquery
 	 * 
-	 * @access private
+	 * @access public
 	 * @param string $alias valor do alias a ser usado na subquery
 	 * @return void
 	 */
@@ -42,7 +42,7 @@ class MQSubSelect extends MQSelect
 	}
 	/**
 	 * (non-PHPdoc)
-	 * @see MQuery::make()
+	 * @see MQSelect::make()
 	 */
 	public function make ()
 	{
