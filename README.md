@@ -1,0 +1,1 @@
+Library to generate sql queries dinamically

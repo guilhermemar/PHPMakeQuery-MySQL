@@ -6,7 +6,7 @@ namespace phpmakequery\mysql;
  * @author Guilherme Mar <guilhermemar.dev@gmail.com>
  * @version 0.1
  */
-class MQJoin extends MQBase
+class MQJoin extends MQuery
 {
 	/**
 	 * Tipos de joins

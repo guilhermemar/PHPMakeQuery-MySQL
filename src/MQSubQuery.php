@@ -6,7 +6,7 @@ namespace phpmakequery\mysql;
  * @author Guilherme Mar <guilhermemar.dev@gmail.com>
  * @version 0.1
  */
-class MQSubQuery extends MQuery
+class MQSubSelect extends MQSelect
 {
 	/**
 	 * Nome do alias da subquery

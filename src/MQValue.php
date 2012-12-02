@@ -7,7 +7,7 @@ namespace phpmakequery\mysql;
  * @author Guilherme Mar <guilhermemar.dev@gmail.com>
  * @version 0.1
  */
-class MQValue extends MQBase
+class MQValue extends MQuery
 {
 	/**
 	 * Tipo string

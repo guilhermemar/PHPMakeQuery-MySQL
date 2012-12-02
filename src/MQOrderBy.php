@@ -6,7 +6,7 @@ namespace phpmakequery\mysql;
  * @author Guilherme Mar <guilhermemar.dev@gmail.com>
  * @version 0.1
  */
-class MQOrderBy extends MQBase
+class MQOrderBy extends MQuery
 {
 	/**
 	 * Tipos de ordenação

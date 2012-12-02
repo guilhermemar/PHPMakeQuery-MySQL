@@ -6,7 +6,7 @@ namespace phpmakequery\mysql;
  * @author Guilherme Mar <guilhermemar.dev@gmail.com>
  * @version 0.1
  */
-class MQuery extends MQBase
+class MQSelect extends MQuery
 {
 	/**
 	 * Tabela da query

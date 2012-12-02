@@ -6,7 +6,7 @@ namespace phpmakequery\mysql;
  * @author Guilherme Mar <guilhermemar.dev@gmail.com>
  * @version 0.1
  */
-class MQField extends MQBase
+class MQField extends MQuery
 {
 	/**
 	 * Tabela na qual se refere a coluna

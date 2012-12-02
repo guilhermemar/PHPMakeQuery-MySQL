@@ -6,7 +6,7 @@ namespace phpmakequery\mysql;
  * @author Guilherme Mar <guilhermemar.dev@gmail.com>
  * @version 0.1
  */
-abstract class MQBase
+abstract class MQuery
 {
 	/**
 	 * Versão atual do projeto

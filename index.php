@@ -10,7 +10,7 @@ use phpmakequery\mysql as mq;
 /*
  * Instanciando classe
  */
-$q = new mq\MQuery();
+$q = new mq\MQSelect();
 /*
  * informando a tabela que será utilizada na query
  */
@@ -68,11 +68,11 @@ $q->addField("tabela03.campo01");
 */
 $q->addField("tabela03.campo01 'campo da tabela03'");
 /*
- * adicionando um campo do tipo subquer.
+ * adicionando um campo do tipo subselect.
  * 
  * primeiramente se precisa criar uma classe subquery
  */
-$sq = new mq\MQSubQuery();
+$sq = new mq\MQSubSelect();
 $sq->setTable("tabela04");
 $sq->addField("campo01");
 /*

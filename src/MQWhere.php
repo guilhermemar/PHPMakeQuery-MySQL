@@ -6,7 +6,7 @@ namespace phpmakequery\mysql;
  * @author Guilherme Mar <guilhermemar.dev@gmail.com>
  * @version 0.1
  */
-class MQWhere extends MQBase
+class MQWhere extends MQuery
 {
 	/**
 	 * Tipos de comparações

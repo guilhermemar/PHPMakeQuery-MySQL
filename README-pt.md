@@ -1,0 +1,1 @@
+Biblioteca para gerar consultas SQLs dinâmicamente
