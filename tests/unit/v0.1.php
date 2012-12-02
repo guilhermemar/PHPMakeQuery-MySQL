@@ -1,5 +1,5 @@
 <?php
-include  __DIR__."/../../makeQuery.php";
+include  __DIR__."/../../PHPMakeQuery.php";
 
 use phpmakequery\mysql as mq;
 
