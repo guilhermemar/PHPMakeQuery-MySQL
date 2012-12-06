@@ -14,7 +14,7 @@ abstract class MQuery
 	 * @access public
 	 * @var double
 	 */
-	public static $version = 0.1;
+	public static $version = 0.7;
 	/**
 	 * Monta o trecho da query de sua responsábilidade
 	 * 

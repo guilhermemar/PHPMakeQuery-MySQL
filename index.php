@@ -2,7 +2,7 @@
 /* * * * * * * * * * * * * * * * * * * * * *
  * Tutorial rápido para uso do MakeQuery  *
  * * * * * * * * * * * * * * * * * * * * * */
-require_once 'PHPMakeQuery.php';
+require_once 'PHPMakeQuery-MySQL.php';
 /*
  * A biblioteca trabalha com namespaces, por isso é necessário importar o namespace
  */
